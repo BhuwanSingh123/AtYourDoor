@@ -106,7 +106,7 @@
     
     <form action="login.php" method = "post" class="login-form"  id="login">
     <h3>login now</h3>
-        <input required placeholder="your email"  name="email" class="box" value="<?php echo $email; ?>">
+        <input required placeholder="your email" required=@.  name="email" class="box" value="<?php echo $email; ?>">
         <span class="error">
             <?php  
             if($emailError){
@@ -195,7 +195,7 @@
             <div class="swiper-slide box">
                 <img src="image/product-1.png" alt="">
                 <h3>fresh orange</h3>
-                <div class="price"> rs 120/- - 400/- </div>
+                <div class="price"> rs 120 </div>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -209,7 +209,7 @@
             <div class="swiper-slide box">
                 <img src="image/product-2.png" alt="">
                 <h3>fresh onion</h3>
-                <div class="price"> rs 120/- - 200/- </div>
+                <div class="price"> rs 120 </div>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -223,7 +223,7 @@
             <div class="swiper-slide box">
                 <img src="image/product-3.png" alt="">
                 <h3>fresh meat</h3>
-                <div class="price"> rs 440/- - 1300/- </div>
+                <div class="price"> rs 440 </div>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -237,7 +237,7 @@
             <div class="swiper-slide box">
                 <img src="image/product-4.png" alt="">
                 <h3>fresh cabbage</h3>
-                <div class="price"> rs 100/- - 200/- </div>
+                <div class="price"> rs 100 </div>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -259,7 +259,7 @@
             <div class="swiper-slide box">
                 <img src="image/product-5.png" alt="">
                 <h3>fresh potato</h3>
-                <div class="price"> rs 80/- - 250/- </div>
+                <div class="price"> rs 80 </div>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -273,7 +273,7 @@
             <div class="swiper-slide box">
                 <img src="image/product-6.png" alt="">
                 <h3>fresh avocado</h3>
-                <div class="price"> rs 500/- - 1000/- </div>
+                <div class="price"> rs 500 </div>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -287,7 +287,7 @@
             <div class="swiper-slide box">
                 <img src="image/product-7.png" alt="">
                 <h3>fresh carrot</h3>
-                <div class="price"> rs 60/- - 100/- </div>
+                <div class="price"> rs 60 </div>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -301,7 +301,7 @@
             <div class="swiper-slide box">
                 <img src="image/product-8.png" alt="">
                 <h3>green lemon</h3>
-                <div class="price"> rs 50/- - 100/- </div>
+                <div class="price"> rs 50 </div>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>

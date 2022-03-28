@@ -1,4 +1,6 @@
 <?php
+
+echo '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">';
 require './database.php';
     if (!isset($_POST["search"])) {
         echo "Please make a search to continue";
@@ -14,16 +16,15 @@ require './database.php';
                 echo "<br>Data found";
                 while ($row = $data->fetch_assoc()) {
                     ?>
-
-                        <p>
-                            Name: <?php echo $row['product_name']?>
-                        </p>
-                        <p>
-                            Price: <?php echo $row['product_price']?>
-                        </p>
-                        <p>
-                            Image: <img src="<?php echo $row['image']?>" alt="">
-                        </p>
+                    <div class="card" style="width: 48rem;">
+                        <img class="card-img-top" src=".<?php echo $row['image']?>" alt="image not found.">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo $row['product_name']?>
+                </h5>
+                <p class="card-text">Rs. <?php echo $row['product_price']?></p>
+            </div>
+                    </div>
+                        
                     <?php
                 }
             }else{
